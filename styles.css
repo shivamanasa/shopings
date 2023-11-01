@@ -55,6 +55,7 @@ body{
   direction: row;
   display: flex;
   
+  
 }
 
 .wrapper .top_navbar .top_menu .logo{
@@ -149,7 +150,8 @@ margin-left: 280px;
 margin-top: 70px;
 display: flex;
 gap: 15px;
-position: fixed;
+position: absolute;
+overflow: auto;
 
 }
 .item{
@@ -162,7 +164,7 @@ position: fixed;
     margin-left: 280px;
     margin-top: 280px;
     display: flex;
-    position: fixed;
+    position: absolute;
     gap: 15px;
     justify-content: center;
     direction: row;
@@ -173,7 +175,7 @@ position: fixed;
     margin-left: 280px;
     margin-top: 490px;
     display: flex;
-    position: fixed;
+    position: absolute;
     gap: 15px;
     justify-content: center;
     direction: row;
@@ -198,14 +200,14 @@ button:hover{
 
 .search{
     margin-left: -1000px;
-    position: fixed;
+    position: relative;
     
 }
 input{
-    width: 1050px;
+    width: 150px;
     height: 40px;
     font-size: 20px;
-    position: fixed;
+    position: absolute;
     
 }
 input:hover{
@@ -224,10 +226,12 @@ input:hover{
     margin-left: 280px;
     margin-top: 90px;
     display: flex;
+   
     gap: 15px;
-    position: fixed;
+    position: absolute;
     justify-content: center;
     align-items: center;
+   
     
     }
     .items{
@@ -242,8 +246,10 @@ input:hover{
         margin-top: 400px;
         display: flex;
         gap: 15px;
-        position: fixed;
+        position: absolute;
         justify-content: center;
         align-items: center;
+        
+        
     }
     
